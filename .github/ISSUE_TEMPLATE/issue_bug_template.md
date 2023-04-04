@@ -1,5 +1,5 @@
 ---
-name: ‼ Bug 🐛
+name: ❗❗ Bug 🐛
 about: Describe the bug in Provider Implementation
 title: ''
 labels: 'implementation:bug'
