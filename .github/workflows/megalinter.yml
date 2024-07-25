@@ -49,7 +49,7 @@ jobs:
         # Replace openapi.yaml file with your API specification file
       
       
-      - name Download functions
+      - name: Download functions
         uses: valitydev/action-download-file@v1
         with:
           url: https://raw.githubusercontent.com/rartych/.github/main/lint_function/camara-language-avoid-telco.js
