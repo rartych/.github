@@ -47,6 +47,14 @@ jobs:
     # - name: Run spectral:oas Spectral Linting
     #   run: spectral lint code/API_definitions/*.yaml --verbose --ruleset .spectral.yml
         # Replace openapi.yaml file with your API specification file
+      
+      
+      - name Download functions
+        uses: valitydev/action-download-file@v1
+        with:
+          url: https://raw.githubusercontent.com/rartych/.github/main/lint_function/camara-language-avoid-telco.js
+          target-path: lint_function
+
 
       # MegaLinter
       - name: MegaLinter
